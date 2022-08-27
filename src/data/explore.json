@@ -1,0 +1,62 @@
+
+{
+    "people": [
+        {
+            "title": "April Underwood",
+            "description": "Ceo and Founder, local laboratory"
+        },
+        {
+            "title": "Helena Price Hambrecht",
+            "description": " Founder @drinks / Twitter @helena"
+        },
+        {
+            "title": "James chain",
+            "description": "@jamescham"
+        }
+    ],
+    "conversation" : [
+        {
+            "title": "Tech",
+            "description": "Venture capital, DTC, Ai , Saas "
+        },
+        {
+            "title": "Languages",
+            "description": "Venture capital, DTC, Ai , Saas "
+        },
+        {
+            "title": "Places",
+            "description": "Venture capital, DTC, Ai , Saas "
+        },
+        {
+            "title": "Identity",
+            "description": "Venture capital, DTC, Ai , Saas "
+        },
+        {
+            "title": "Sports",
+            "description": "Venture capital, DTC, Ai , Saas "
+        },
+       
+        {
+            "title": "Life",
+            "description": "Venture capital, DTC, Ai , Saas "
+        },
+        {
+            "title": "Knowledge",
+            "description": "Venture capital, DTC, Ai , Saas "
+        },
+        {
+            "title": "Hustle",
+            "description": "Venture capital, DTC, Ai , Saas "
+        },
+        {
+            "title": "Arts",
+            "description": "Venture capital, DTC, Ai , Saas "
+        },
+        {
+            "title": "Entertainment",
+            "description": "Venture capital, DTC, Ai , Saas "
+        }
+
+
+    ]
+}
