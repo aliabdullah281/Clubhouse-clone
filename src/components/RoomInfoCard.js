@@ -1,8 +1,5 @@
 import React, {useState, useEffect} from 'react'
-// import style from "../style/roomCard.module.css"
-
 import data from "../data/roomCard.json"
-//import style from '../style/RoomInfoCard.module.css'
 import style from "../style/roomCard.module.css"
 import {BsChatDots, BsChatDotsFill, BsFillPersonFill} from "react-icons/bs";
 import styles from '../style/mystyle.module.css'; 

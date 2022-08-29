@@ -8,25 +8,19 @@ const BottomSheet = (props) => {
   return (
     <div>
         <SwipeableBottomSheet 
-        open={props.sheetVisible}
-        onChange= {() => {
+            open={props.sheetVisible}
+            onChange= {() => {
             props.setSheetVisible(!props.sheetVisible)
             props.setItemsVisible(true)
         }}
         fullScreen = {props.sheetTitle == 'room detail' ? true: false}
         >
         <div className={style.BottomSheetContainer} style={{backgroundColor: props.sheetTitle == 'profile' ? 'transparent' : ''}}>
-            {/* <StartRoom 
-            setSheetCreateRoom={props.setSheetCreateRoom}
-            setSheetVisible={(item) => {
-                   props.setItemsVisible(item);
-                   props.setItemsVisible(true); 
-            }}
-            /> */}
+
             {props.sheetTitle == "new room" ? (
                  <NewRoom
-                 cardDetail={props.cardDetail}
-                 setSheetVisible={(item) => {
+                    cardDetail={props.cardDetail}
+                    setSheetVisible={(item) => {
                         props.setSheetVisible(item);
                         props.setItemsVisible(true); 
                  }}
@@ -34,8 +28,8 @@ const BottomSheet = (props) => {
             ) : props.sheetTitle == "start room" ? (
                 
                 <StartRoom 
-                setSheetCreateRoom={props.setSheetCreateRoom}
-                setSheetVisible={(item) => {
+                    setSheetCreateRoom={props.setSheetCreateRoom}
+                    setSheetVisible={(item) => {
                        props.setItemsVisible(item);
                        props.setItemsVisible(true); 
                 }}

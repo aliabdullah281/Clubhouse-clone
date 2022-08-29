@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import Header from '../components/Header'
 import DailyInfoCard from '../components/DailyInfoCard'
-//import style from "../components/Header"
 import style from "../style/home.module.css"
 import RoomInfoCard from '../components/RoomInfoCard'
 import {AiOutlinePlus} from "react-icons/ai";
@@ -9,9 +8,8 @@ import {BsGrid3X3Gap} from "react-icons/bs";
 import data from '../data/roomCard.json'
 import BottomSheet from '../components/BottomSheet'
 import NewRoom from '../components/botom_sheets/NewRoom'
-//import NewRoom from './botom_sheets/NewRoom'
 import newRoomData from "../data/newRoom.json"
- //import Explore from "./pages/Explore"
+ 
 
 const Home = () => {
  const [itemsVisible, setItemsVisible] = useState(true);

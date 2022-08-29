@@ -2,7 +2,6 @@
 import './App.css';
 import Welcome from './pages/Welcome';
 import PlanLayout from './pages/Layouts/PlanLayout';
-// import { BrowserRouter, Routep } from 'react-router-dom'
 import {
   BrowserRouter,
   Routes,
@@ -21,26 +20,24 @@ function App() {
   return (
   
 
- <BrowserRouter>
- <PlanLayout>
-      <Routes>
-
-       <Route path="/" element={<Welcome />} />
-        <Route path="/invite" element={<PhoneConfirmation />} />
-        <Route path="/code_confirm" element={<CodeConfirm />} />
-        <Route path="/allow_notification" element={<AllowNotification />} />
-      </Routes>
+    <BrowserRouter>
+        <PlanLayout>
+          <Routes>
+            <Route path="/" element={<Welcome />} />
+            <Route path="/invite" element={<PhoneConfirmation />} />
+            <Route path="/code_confirm" element={<CodeConfirm />} />
+            <Route path="/allow_notification" element={<AllowNotification />} />
+          </Routes>
        </PlanLayout>
-
-       <AppLayout>
-       <Routes>
-         <Route path="/profile" element={<Profile />} />
-         <Route path="/explore" element={<Explore />} />
-         <Route path="/home" element={<Home />} /> 
-
-
+      
+      <AppLayout>
+        <Routes>
+            <Route path="/profile" element={<Profile />} />
+            <Route path="/explore" element={<Explore />} />
+            <Route path="/home" element={<Home />} /> 
        </Routes>
-       </AppLayout>
+      </AppLayout>
+      
     </BrowserRouter>
    
    
